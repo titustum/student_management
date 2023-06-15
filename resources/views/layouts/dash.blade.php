@@ -37,7 +37,7 @@
         </div>
 
 
-        <a href="#" class="mt-auto mt-2 block pl-6 bg-red-200 py-2 transition-all hover:bg-red-600 hover:text-white rounded">
+        <a href="{{ route('logout') }}" class="mt-auto mt-2 block pl-6 bg-red-200 py-2 transition-all hover:bg-red-600 hover:text-white rounded">
             Logout
             <i class="fas fa-arrow-right"></i>
         </a> 
@@ -58,7 +58,7 @@
             </div>
             <a href="#" class="text-lg">
                 <i class="fas fa-user mr-2"></i>
-                James Bett
+                {{ Session::get('auth_user')->name }}
             </a>
         </div>
         <div class="p-2 flex-grow bg-gray-50 max-h-[calc(100vh-56px)] overflow-auto">

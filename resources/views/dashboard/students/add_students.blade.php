@@ -34,8 +34,13 @@
         class="w-full rounded py-2 px-4 outline-none border hover:border-primary focus:border-primary">
     </div>
     <div class="mt-3">
-        <label for="desease">Injury/Illness</label>
+        <label for="desease">Chronic Diseases/Illnesses</label>
         <input type="text" name="desease" id="desease" placeholder="e.g. Asthma"
+        class="w-full rounded py-2 px-4 outline-none border hover:border-primary focus:border-primary">
+    </div>
+    <div class="mt-3">
+        <label for="desease">Disability</label>
+        <input type="text" name="disability" id="disability" placeholder="e.g. Hearing"
         class="w-full rounded py-2 px-4 outline-none border hover:border-primary focus:border-primary">
     </div>
     <div class="mt-3">
